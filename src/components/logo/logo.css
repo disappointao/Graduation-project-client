@@ -1,0 +1,14 @@
+.logo-container {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: wheat;
+  text-align: center;
+}
+.logo-container .logo {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=logo.css.map */

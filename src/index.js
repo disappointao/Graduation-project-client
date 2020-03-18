@@ -1,4 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'antd-mobile';
-ReactDOM.render(<Button type="primary">开始</Button>, document.getElementById('root'));
+import {Provider} from 'react-redux';
+
+import App from './App';
+import store from "./redux/store";
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App/>
+    </Provider>
+    , document.getElementById('root'));
