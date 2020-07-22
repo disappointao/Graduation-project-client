@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+Mongoose是在node.js异步环境下对mongodb进行便捷操作的对象模型工具<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- set `maximum-scale` for some compatibility issues -->
     <meta name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="index.css">
     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
     <script>
         if ('addEventListener' in document) {
@@ -15,6 +14,14 @@
         if (!window.Promise) {
             document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
         }
+        var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+        // 解决键盘弹起时，影响页面布局
+        window.onresize = function(){
+          var nowClientHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+          if (scrollHeight > nowClientHeight) {
+            document.getElementsByTagName("body")[0].style.height = scrollHeight + 'px';
+          }
+        };
     </script>
 </head>
 <body>

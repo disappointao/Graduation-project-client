@@ -1,0 +1,242 @@
+.am-action-sheet-share-list{
+  justify-content: space-between !important;
+}
+.am-input-label-5,.am-list-content{
+  font-weight: 300;
+}
+.am-list-body{
+  padding: 0 10px;
+}
+#employer_info{
+  .space{
+    background: #f5f4f9;
+  }
+  .employerInfo-list{
+    .am-list-body{
+      &:after{
+        background-color: white!important;
+      }
+      &:before{
+        background-color: white!important;
+      }
+    }
+    .am-list-item{
+      padding: 0 15px !important;
+      .am-list-line{
+        .am-list-extra{
+          flex-basis:70% !important;
+        }
+      }
+    }
+    input{
+      text-align: right;
+      color: #666666 !important;
+    }
+  }
+  #set_company,#employer_confirm{
+    height: 100%;
+    background: white;
+    position:relative;
+    .am-list-body{
+      &:after{
+        background-color: white!important;
+      }
+      &:before{
+        background-color: white!important;
+      }
+    }
+    .am-list-item{
+      padding: 0 15px !important;
+      .am-list-line{
+        .am-list-extra{
+          flex-basis:70% !important;
+        }
+      }
+    }
+    .am-list-thumb{
+      img{
+        height: 80px !important;
+        width: 80px !important;
+        border-radius: 50% !important;
+        margin: 15px 0 !important;
+      }
+    }
+    input{
+      text-align: right;
+      color: #666666 !important;
+    }
+  }
+}
+#employee_info{
+  background: white;
+  height: 100%;
+  input{
+    text-align: right;
+    color: #666666 !important;
+  }
+  .change_avatar{
+    height:120px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    img{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    span{
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      transform: translateX(-50%);
+      color:#777777;
+      font-weight: 400;
+    }
+  }
+  .am-list-body{
+    .am-list-line{
+      &:after{
+        background-color: white!important;
+      }
+      &:before{
+        background-color: white!important;
+      }
+      .am-list-extra{
+        flex-basis:70% !important;
+      }
+    }
+
+    &:before{
+      background-color: white!important;
+    }
+    &:after{
+      background-color: white!important;
+    }
+    .am-list-item{
+      height:60px;
+    }
+    .am-list-item-middle{
+      margin-top: 10px ;
+    }
+  }
+  .step3-head{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    padding-top: 40px;
+    span{
+      display: block;
+      margin-left: 25px;
+      color:#909090;
+      font-weight: 400;
+    }
+    .span-1{
+      font-size: 30px;
+      font-weight: 500;
+      color:#333333;
+    }
+    .span-2{
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+    .span-3{
+      margin-top: 10px;
+    }
+    img{
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      right: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  #introduction{
+    height: 100%;
+    background: white;
+    .introduction-head{
+      padding: 0 25px;
+      height: 35%;
+      p{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      textarea{
+        width: 100%;
+        border: none;
+        padding-top: 20px;
+        height: 60%;
+        outline: none;
+        resize: none;
+        font-weight: 300;
+        line-height: 13pt;
+      }
+      span{
+        color: #777777;
+        font-weight: 400;
+      }
+    }
+    .introduction-template{
+      padding: 10px 25px;
+      .template-head{
+        position: relative;
+
+        img{
+          width: 30px;
+        }
+        .template-head-left{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 35px;
+          color: #444444;
+        }
+        .template-head-right{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0;
+          color: #444444;
+        }
+      }
+      .template-content{
+        margin-top: 10px;
+        padding: 20px 10px;
+        border: 1px solid #89ABD9;
+        border-radius: 5px;
+        color: #777777;
+        line-height: 13pt;
+      }
+    }
+  }
+  #ability{
+    height: 100%;
+    background: white;
+    .ability-head{
+      padding: 0 25px;
+      p{
+        font-size: 20px;
+        font-weight: 500;
+      }
+      span{
+        color: #777777;
+        font-weight: 400;
+      }
+    }
+    .ability-content{
+      margin-top: 20px;
+      display: flex;
+      padding: 15px;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      div{
+        margin-left: 9px;
+        margin-bottom: 9px;
+      }
+    }
+
+  }
+}

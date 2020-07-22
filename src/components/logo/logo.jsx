@@ -7,7 +7,7 @@ class Logo extends Component {
     render() {
         return (
             <div className='logo-container'>
-                <img src={logo} className='logo'/>
+                <img src={logo} alt='logo' className='logo'/>
             </div>
         );
     }

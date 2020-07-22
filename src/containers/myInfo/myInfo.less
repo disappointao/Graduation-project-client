@@ -1,0 +1,107 @@
+#myInfoEmployee{
+  position: relative;
+  height: 100%;
+  .info-head{
+    width: 100%;
+    height: 25vh;
+    position: relative;
+    //background: linear-gradient(right,#16CD85,0%,#0AC086,100%);
+    background: linear-gradient(to top right, #37C2BB 0%, #169C95 55%, #137B76 100%);
+    .head-img{
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      top:50%;
+      transform: translateY(-50%);
+      left: 30px;
+      background: white;
+      border-radius: 50%;
+      img{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 65px;
+        height:65px;
+        border-radius: 50%;
+      }
+    }
+    .head-name{
+      height: 70px;
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      left: 120px;
+      p{
+        margin:5px 0 10px 0;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+      }
+      span{
+        color: white;
+        font-weight: 300;
+      }
+    }
+    .head-banner{
+      width: 95%;
+      height: 70px;
+      border-radius: 15px;
+      background: white;
+      position: absolute;
+      left: 50%;
+      bottom: -35px;
+      transform: translateX(-50%);
+      display: flex;
+      div{
+        flex: 1;
+        padding-top: 18px;
+        color: #37C2BB;
+        font-size: 16px;
+        font-weight: 600;
+        span{
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+        }
+        p{
+          margin: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .info-content{
+    position: relative;
+    width: 95vw;
+    height: 50vh;
+    background: white;
+    margin:5vh 0 0 1.5vh ;
+    border-radius: 15px;
+    padding-top: 5px;
+    .am-list-body{
+      &:after{
+        background-color: white!important;
+      }
+      &:before{
+        background-color: white!important;
+      }
+      .am-list-line{
+        &:after{
+          background-color: white!important;
+        }
+        &:before{
+          background-color: white!important;
+        }
+        .am-list-extra{
+          flex-basis:60% !important;
+        }
+      }
+    }
+  }
+  .am-list-body{
+    padding: 0 2.5vw;
+    margin-top: 20px;
+    background: rgba(0,0,0,0);
+  }
+}

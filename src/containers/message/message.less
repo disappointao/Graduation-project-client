@@ -1,0 +1,117 @@
+#message {
+  .am-list-body{
+    .am-list-item{
+      padding-top: 5px;
+      .am-list-thumb{
+        img{
+          width: 40px;
+          height: 40px;
+          border-radius: 5px;
+        }
+      }
+    }
+    .am-list-content{
+      color:#333333;
+      font-weight: 500;
+      .am-list-brief{
+        margin-top: 0;
+        color:#888888;
+        font-size: 14px;
+      }
+    }
+  }
+}
+#chat{
+  height: 100%;
+  .am-navbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+  }
+  .chat-body{
+    padding-top:45px;
+    padding-bottom: 44px;
+    .am-list-body{
+      padding-top: 10px;
+      &:after{
+        background-color: rgba(0,0,0,0);
+      }
+      &:before{
+        background-color: rgba(0,0,0,0);
+      }
+      background: rgba(0,0,0,0);
+      .am-list-item{
+        background: rgba(0,0,0,0);
+        align-items: flex-start;
+        .am-list-thumb{
+          img{
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+          }
+        }
+        .am-list-line{
+          &:after{
+            background-color: rgba(0,0,0,0);
+          }
+          &:before{
+            background-color: rgba(0,0,0,0);
+          }
+          .am-list-content{
+            color:#666666;
+            font-size: 12px;
+            text-overflow: unset;
+            white-space: unset;
+            overflow: unset;
+            .am-list-brief{
+              color: black;
+              font-size: 16px;
+              background: white;
+              padding: 10px;
+              border-radius: 10px;
+              text-overflow: unset;
+              white-space: unset;
+              overflow: unset;
+            }
+          }
+        }
+      }
+      .chat-me{
+        .am-list-extra{
+          flex-basis: 100%;
+          text-overflow: unset;
+          white-space: unset;
+          overflow: unset;
+          color: black;
+          font-size: 16px;
+          div{
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            div{
+              background: #54a0ff;
+              padding: 10px;
+              border-radius: 10px;
+            }
+            img{
+              width: 40px;
+              height: 40px;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .stick-footer{
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .am-grid-text{
+    margin-top: -10px;
+  }
+
+}

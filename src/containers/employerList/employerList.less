@@ -1,0 +1,125 @@
+#employerList{
+  padding-top: 100px;
+  padding-bottom: 60px;
+  .am-list-thumb{
+    img{
+      border-radius: 50%;
+    }
+  }
+  .am-card-footer-extra{
+    flex: 2 1;
+  }
+  .am-search{
+    position: fixed;
+    width: 96%;
+    top:0;
+    z-index: 10;
+    background: #37C2BB;
+    .am-search-cancel{
+      color:white;
+    }
+  }
+  .list-tabs{
+    position: fixed;
+    z-index: 10;
+    top:44px;
+  }
+}
+#employerDetail{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  .am-list-thumb{
+    img{
+      border-radius: 50%;
+    }
+  }
+  .detail-body{
+    background:white;
+    width:100%;
+    overflow:auto;
+    top:45px;
+    position:absolute;
+    z-index:10;
+    bottom:60px;
+    .body-top{
+      .am-list-body{
+        .am-list-item{
+          &:first-child{
+            padding: 0;
+            img{
+              width: 21px;
+              height: 21px;
+              margin-right: 5px;
+            }
+            .am-list-content{
+              color: black;
+              font-weight: 600;
+              font-size: 20px;
+              .am-list-brief{
+                margin-top: 15px;
+                color:#888888;
+                font-size: 12px;
+                font-weight: 500;
+                span{
+                  margin-right: 20px;
+                  margin-top: 3px;
+                }
+              }
+            }
+            .am-list-line{
+              .am-list-extra{
+                flex-basis: 20%;
+                color:#37C2BB;
+                font-weight:600;
+              }
+            }
+          }
+          padding: 10px 0;
+          img{
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+    }
+    .body-middle{
+      .am-list-item{
+        .am-list-line{
+          .am-list-content{
+            color:#333333;
+            font-weight: 600;
+            .am-list-brief{
+              font-weight: normal;
+              overflow: visible;
+              text-overflow: unset;
+              white-space:unset;
+              min-height: 100px;
+            }
+          }
+        }
+      }
+    }
+    .body-bottom{
+      .am-list-body{
+        .am-list-item{
+          padding: 15px;
+          img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+          }
+          .am-list-content{
+            color: black;
+            font-weight: 600;
+            .am-list-brief{
+              color:#888888;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

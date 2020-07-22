@@ -1,0 +1,104 @@
+#employerItem{
+  .am-card{
+    .am-card-header{
+      .am-card-header-content{
+        div{
+          position: relative;
+          width: 100%;
+          img{
+            width: 25px;
+            height:25px;
+          }
+          span{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            left:30px;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+      .am-card-header-extra{
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        span{
+          margin-left: 5px;
+          font-size: 13px;
+          color:#37C2BB;
+          padding: 5px;
+          border: 1px solid #37C2BB;
+          border-radius: 5px;
+        }
+      }
+    }
+    .am-card-body{
+      padding-top: 0;
+      padding-bottom: 0;
+      .item-brief{
+        white-space :nowrap ;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        color:#828282
+      }
+    }
+    .am-card-footer{
+      .am-card-footer-content{
+        flex:6 1;
+        .item-footer{
+          width: 100%;
+          margin-bottom: 10px;
+          position: relative;
+          img{
+            width: 60px;
+            height: 60px;
+          }
+          .text-content{
+            position: absolute;
+            height: 100%;
+            width: 200px;
+            top:0;
+            left: 80px;
+            .company-title{
+              font-size: 16px;
+              font-weight: 600;
+              color: #333333;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+            }
+            div{
+              margin: 5px 0;
+              span{
+                margin-right: 5px;
+              }
+              div{
+                padding: 0 5px;
+                margin: 10px 0;
+                border: 1px solid #FC7654 ;
+                border-radius: 2px;
+                text-align: center;
+                color:#FC7654 ;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+      }
+      .am-card-footer-extra{
+        position: relative;
+        span{
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+          right: 0;
+          color:#FC7654;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

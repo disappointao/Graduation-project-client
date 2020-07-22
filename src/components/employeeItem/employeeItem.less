@@ -1,0 +1,59 @@
+#employeeItem{
+  .am-card{
+    .am-card-header{
+      .am-card-header-content{
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .am-card-header-extra{
+        color:#37C2BB
+      }
+    }
+    .am-card-body{
+      padding-bottom: 0;
+      .item-ability{
+        span{
+          display: inline-block;
+          background: #F5F5F5;
+          color: #828282;
+          font-size: 13px;
+          font-weight: 200;
+          padding: 6px 7px 3px 6px;
+          margin-right: 10px;
+          border-radius:5px ;
+        }
+      }
+      .item-brief{
+        white-space :nowrap ;
+        text-overflow:ellipsis;
+        overflow: hidden;
+      }
+    }
+    .am-card-footer{
+      .am-card-footer-content{
+        .item-footer{
+          position: relative;
+          img{
+            width: 30px;
+            height: 30px;
+          }
+          span{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+            left:40px;
+          }
+        }
+      }
+      .am-card-footer-extra{
+        position: relative;
+        span{
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+          right: 0;
+        }
+      }
+    }
+  }
+}

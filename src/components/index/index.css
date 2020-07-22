@@ -1,8 +1,14 @@
 .container {
   height: 100%;
+  position: relative;
 }
 .container .flex-container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #89ABD9;
+}
+.container .flex-container .skip-login {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
